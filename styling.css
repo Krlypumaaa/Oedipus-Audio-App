@@ -1,0 +1,169 @@
+QWidget{
+background-color: transparent;
+}
+
+QPushButton{
+background-color: #FF7088;
+border-radius: 8px;
+padding: 12px;
+}
+
+QPushButton:hover{
+background-color: #CC5C6E;
+color: #1e1e1e;
+}
+
+QPushButton:disabled{
+background-color: #948B8F;
+color: #1e1e1e;
+}
+
+QLabel{
+background-color: rgba(89, 54, 65, 0.3);
+border-radius: 9px;
+padding: 3px;     
+}
+
+#Resume{
+background-color: transparent;
+padding: 3px;
+}
+
+#Loop{
+background-color: transparent;
+padding: 3px;
+}
+
+#Next{
+background-color: transparent;
+padding: 3px;
+}
+
+#Pause{
+background-color: transparent;
+padding: 3px;
+}
+
+#Backtrack{
+background-color: transparent;
+padding: 3px;
+}
+
+#Title{
+font-size: 30px;
+}
+
+#SongTitle{
+font-weight: bold;
+}
+
+#Cover{
+background-color: rgba(89, 54, 65, 0.0)
+}
+
+Qslider{
+margin-right: 15px;
+}
+
+QListWidget{
+background-color: rgba(89, 54, 65, 0.3);
+border-radius: 9px;
+color: #FFFFFF;
+}
+
+#Rate{
+width: 150px;
+}
+
+#MainWindow{
+background-color: #593641;
+border: 3px solid #3D66B8;
+border-radius: 12px;
+padding: 8px;
+}
+
+#CloseButton{
+background-color: transparent;
+border-radius: 8px;
+padding: 1px;
+font-size: 12px;
+color: #FFFFFF;
+}
+
+#CloseButton:hover{
+background-color: #ff4444;
+}
+
+#MinimizeButton{
+background-color: transparent;
+border-radius: 8px;
+padding: 1px;
+font-size: 12px;
+color: #FFFFFF;
+}
+
+#MinimizeButton:hover{
+background-color: #ff4444;
+}
+
+QScrollBar:vertical {
+background-color: rgba(89, 54, 65, 0.3);
+width: 14px;
+margin: 0px 0px 0px 0px;
+border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+background-color: #FF7088;
+min-height: 20px;
+border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+background-color: #CC5C6E;
+}
+
+QScrollBar::handle:vertical:pressed {
+background-color: #CC5C6E;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+border: none;
+background: none;
+height: 0px;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+background: none;
+}
+
+QScrollBar:horizontal {
+background-color: rgba(89, 54, 65, 0.3);
+width: 14px;
+margin: 0px 0px 0px 0px;
+border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+background-color: #FF7088;
+min-height: 20px;
+border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover {
+background-color: #CC5C6E;
+}
+
+QScrollBar::handle:horizontal:pressed {
+background-color: #CC5C6E;
+}
+
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+border: none;
+background: none;
+height: 0px;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+background: none;
+}
