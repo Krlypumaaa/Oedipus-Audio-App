@@ -28,9 +28,10 @@ When the application is running you can choose a directory that contains your au
 
 Click on the file and press the play button at the bottom.
 
-'''    
+'''python
 def open_file(self):
 	path = QFileDialog.getExistingDirectory(self, 'Select Folder')
+	
 	if path:
 		self.current_folder = path
 		self.file_list.clear()
