@@ -2,7 +2,7 @@
 A small local audio player written in python
 ## About
 
-I mad this as a fun little project for myself after getting upset at the default Microsoft media player and not wanting to install and alternative myself. The project was written entirely in python mainly using the PyQt6 import libraries. The source code is somewhat sloppy, I tried my best to clean it up but I have no real Idea on how to best organize my code for others. I don't think I plan to update this version of the application, but I have been working on a more expansive version for that I think I might write it in another language.
+I made this as a fun little project for myself after getting upset at the default Microsoft media player and not wanting to install and alternative myself. The project was written entirely in python mainly using the PyQt6 import libraries. The source code is somewhat sloppy, I tried my best to clean it up but I have no real Idea on how to best organize my code for others. I don't think I plan to update this version of the application, but I have been working on a more expansive version for that I think I might write it in another language.
 
 # Features
 
