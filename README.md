@@ -28,17 +28,17 @@ When the application is running you can choose a directory that contains your au
 
 Click on the file and press the play button at the bottom.
 
-'''python
+```python
 def open_file(self):
 	path = QFileDialog.getExistingDirectory(self, 'Select Folder')
-	
+
 	if path:
 		self.current_folder = path
 		self.file_list.clear()
 		for file_name in os.listdir(path):
 			if file_name.lower().endswith(('.mp3', '.ogg', '.wav', '.flac', '.mp4')):
 				self.file_list.addItem(file_name)
-'''
+```
 
 # Known Bugs
 
